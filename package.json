@@ -1,0 +1,21 @@
+{
+  "name": "brute-force",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "test": "mocha -r esm *.spec.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  },
+  "dependencies": {
+    "esm": "^3.0.17",
+    "pretty-ms": "^3.1.0"
+  }
+}
